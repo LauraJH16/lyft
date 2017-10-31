@@ -80,13 +80,3 @@ a lograr:
 están fuera del alcance de este reto. Enfócate en obtener la maquetación
 lo más parecido posible, usando lo aprendido en clase ;)
 
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
