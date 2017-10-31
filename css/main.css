@@ -64,12 +64,15 @@ header {
     height: 115px;
     position: fixed;
     width: 100%;
-    border: black solid 5px;
+    z-index: 9999;
 }
 
 header>img {
-    width: 3%;
+    width: 5%;
+    left: 5.5%;
     position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 header>nav {
@@ -78,24 +81,63 @@ header>nav {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    width: 35%;
 }
 
 header>nav>ul>li {
     float: left;
     list-style: none;
-
+    height: 45%;
+    font-size: 1.2em;
+    padding: 2% 3%;
+    color: #ffffff;
 }
+
+header>nav>ul>li.border-login {
+    border: 1px solid white;
+    border-radius: 7px;
+}    
+
+header>nav>ul>li.visibility-sing-up {
+    visibility: hidden;
+    border: 1px solid #FF00BF;
+    color: #FF00BF;
+    border-radius: 7px;
+}    
+
+/*header 2*/
+
+.header-scroll {
+    background-color: #ffffff;
+}
+
+.header-scroll>nav>ul>li {
+    color: #000000;
+}
+
+.header-scroll>nav>ul>li.visibility-sing-up {
+    visibility: visible;
+}    
 
 /* --Intro-- */
 .intro {
-    /*background-image: url(../assets/images/hero.gif);*/
-    height: 533px;
+    height: 535px;
+    position: relative;
+    overflow: hidden;
 }
 
-.intro>video {
-    height: 533px;
+.intro>img {
     width: 100%;
-    
+    size: unset;
+    transform: translateY(-15%);
+}
+
+.intro>form {
+    position: absolute;
+    top: 30%;
+    height: 200px;
+    width: 50%;
+    border: 1px solid black;    
 }
 
 .intro>form>input {
