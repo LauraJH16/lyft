@@ -18,7 +18,7 @@ h2 {
 }
 
 .container {
-    height: 595px;
+    height: 535px;
     width: 100%;
 }
 
@@ -45,7 +45,7 @@ article>p {
 }
 
 iframe {
-    height: 595px;
+    height: 535px;
     width: 66.7%;
     float: right;
 }
@@ -61,7 +61,7 @@ iframe {
 /* Header */
 header {
     background-color: transparent;
-    height: 115px;
+    height: 113px;
     position: fixed;
     width: 100%;
     z-index: 9999;
@@ -119,6 +119,10 @@ header>nav>ul>li.visibility-sing-up {
     visibility: visible;
 }    
 
+.header-scroll>img {
+    color: #FF00BF;
+}
+
 /* --Intro-- */
 .intro {
     height: 535px;
@@ -135,14 +139,52 @@ header>nav>ul>li.visibility-sing-up {
 .intro>form {
     position: absolute;
     top: 30%;
-    height: 200px;
-    width: 50%;
-    border: 1px solid black;    
+    height: 420px;
+    width: 40%;
+    right: 0;  
+    top: 20%; 
+    background-color: #fff;
 }
 
-.intro>form>input {
-    display: block;
+.intro>form>div>h2 {
+    color: #352384;
+    font-size: 45px;
+}
 
+.intro>form>div>p {
+    color: #352384;
+}
+
+.intro>form>div>span {
+    font-size: 0.5em;
+}
+
+.phone {
+    display: block;
+    border-style: none;
+    border-bottom: 1px solid #352384;
+}
+
+.become {
+    border-style: none;
+    border-radius: 5px;
+    padding: 14px;
+    background-color: #FF00BF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sign {
+    background-color: #fff;
+    border-style: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.content {
+    position: relative;
+    left: 12%;
+    top: 15%
 }
 
 /* --Main--*/
