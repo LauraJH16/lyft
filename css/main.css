@@ -114,6 +114,7 @@ header>nav>ul>li.visibility-sing-up {
 
 .hover-color:hover {
     color: #FF00BF;
+    cursor: pointer;
 }
 
 /*header scroll*/
