@@ -149,20 +149,43 @@ header>nav>ul>li.visibility-sing-up {
 .intro>form>div>h2 {
     color: #352384;
     font-size: 45px;
+    line-height: 0.94;
 }
 
 .intro>form>div>p {
     color: #352384;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
 }
 
 .intro>form>div>span {
-    font-size: 0.5em;
+    font-size: 0.6rem;
+    color: #728099;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 10%;
+}
+
+.intro>form>div>span>a {
+    text-decoration: none;
+    color: #728099;
+}
+
+.intro>form>div>span>a:hover {
+    color: #FF00BF;
 }
 
 .phone {
     display: block;
     border-style: none;
     border-bottom: 1px solid #352384;
+    margin-top: 25px;
+    padding-bottom: 5px;
+    padding-right: 40%;
+    font-size: 1rem;
+    outline: none;
+    font-weight: 500;
 }
 
 .become {
@@ -172,13 +195,28 @@ header>nav>ul>li.visibility-sing-up {
     background-color: #FF00BF;
     color: #fff;
     cursor: pointer;
+    outline: none;
+    padding: .75rem 1.25rem;
+    font-size: 1rem;
+    margin-top: 6%;
+    letter-spacing: .5px;
+    margin-bottom: 5%;
 }
 
 .sign {
-    background-color: #fff;
+    background-color: transparent;
     border-style: none;
     cursor: pointer;
     text-decoration: underline;
+    outline: none;
+    padding: 20px 12px;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    color: #728099;
+}
+
+.sign:hover {
+    color: #FF00BF;
 }
 
 .content {
